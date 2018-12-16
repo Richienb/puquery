@@ -1,0 +1,41 @@
+{
+    "title": "PuQuery",
+    "name": "puquery",
+    "description": "A javascript library that simplifies the modification of URL query and hash parameters",
+    "version": "0.0.0",
+    "main": "dist/puquery.min.js",
+    "files": [
+        "src/*",
+        "dist/*",
+        "README.md"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "cssnano": "^4.1.7",
+        "cssnano-preset-advanced": "^4.0.5",
+        "node-sass": "^4.10.0",
+        "postcss": "^7.0.6",
+        "postcss-cli": "^6.0.1",
+        "postcss-preset-env": "^6.4.0",
+        "postcss-scss": "^2.0.0",
+        "sassdoc": "^2.5.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Richienb/puquery.git"
+    },
+    "keywords": [
+        "puquery",
+        "hash",
+        "query"
+    ],
+    "author": "Richie Bendall",
+    "license": "MIT",
+    "browserslist": ">= 0%",
+    "bugs": {
+        "url": "https://github.com/Richienb/puquery/issues"
+    },
+    "homepage": "https://github.com/Richienb/puquery#readme"
+}
