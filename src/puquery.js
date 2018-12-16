@@ -4,10 +4,10 @@ function puquery() {
         let index = 0
         let newURL = oldURL
         index = oldURL.indexOf('?')
-        if (index == -1) {
+        if (index === -1) {
             index = oldURL.indexOf('#')
         }
-        if (index != -1) {
+        if (index !== -1) {
             newURL = oldURL.substring(0, index)
         }
         window.location.href = newURL
@@ -27,6 +27,11 @@ function puquery_h() {
         } else {
             hashes.splice(2 - 1, 1)
         }
+        let finalhashes = "";
+        for (i in hashes) {
+            finalhashes += `#${i}`
+        }
+        window.location.hash = finalhashes
     }
 
     this.set = content => {
